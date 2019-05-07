@@ -12,3 +12,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#welcomeMessage, #statusMessage{
+  padding: 0 15px;
+}
+
+#welcomeMessage{
+  text-align: right;
+}
+
+#statusMessage{
+  text-align: left;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-02{
+  flex: 0.2;
+}
+
+.flex-05{
+  flex: 0.5;
+}
+
+.flex-08{
+  flex: 0.8;
+}

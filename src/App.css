@@ -2,15 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
+  max-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,15 +14,115 @@
   color: white;
 }
 
+.btn-add-currency{
+  width: 100%;
+  margin-top: 0;
+  background-color: #282c34;
+  padding: 10px;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.header-title{
+  font-size: 1.25em;
+  line-height: 46.81px;
+  margin: 0;
+}
+.rates-field, .rates-field:focus{
+  background: none;
+  border-radius: 0;
+  border: none;
+  font-size: 1.25em;
+  color: white;
+  font-weight: 500;
+}
+.content{
+  background-color: white;
+  font-size: calc(10px + 2vmin);
+  padding-bottom: 1em;
+  margin: 15px;
+}
+.example-div{
+  background-color: #282c34;
+  min-height: 50vh;
+  height: 100%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.content-title{
+  padding: 10px 0;
+}
+
+.card{
+  margin-bottom: 10px;
+}
+
+.currency-card{
+  /* display: flex; */
+  background-color: #282c34;
+  color: white;
+}
+
+.content .ui.button.button-container{
+  width: 100%;
+  margin-top: 0;
+}
+
+.currency-desc{
+  text-align: left;
+}
+
+.currency-desc div{
+  line-height: 33.5px;
+}
+
+button.ui.dark-blue-button{
+  background-color: #282c34;
+  color: white;
+  border-radius: 0;
+}
+
+.content div.ui.dropdown-currency{
+  border-radius: 0 !important;
+}
+
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex{
+  display: flex;
+  width: 100%;
+}
+
+.italic-text{
+  margin: 0;
+  font-style: italic;
+  font-size: 0.75em;
+}
+
+.italic-description{
+  font-style: italic;
+}
+
+.col-flex{
+  padding: 0 15px;
+}
+.flex-0-25{
+  flex: 0.25;
+}
+.flex-0-4{
+  flex: 0.4;
+}
+.flex-0-5{
+  flex: 0.5;
+}
+.flex-0-6{
+  flex: 0.6;
+}
+.flex-0-75{
+  flex: 0.75;
+}
+.flex-1{
+  flex: 1;
 }
